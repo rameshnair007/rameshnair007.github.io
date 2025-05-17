@@ -3,127 +3,49 @@ layout: default
 title: Home
 ---
 
+<div class="nav">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/projects">Projects</a>
+  <a href="/research">Research</a>
+  <a href="/publications">Publications</a>
+  <a href="/contact">Contact</a>
+</div>
+
 <div class="home">
   <header class="site-header">
-    <h1 class="site-title">{{ site.title | escape }}</h1>
-    <p class="site-description">{{ site.description | escape }}</p>
+    <h1>{{ site.title | escape }}</h1>
+    <p>{{ site.description | escape }}</p>
   </header>
 
-  <main class="content">
-    <section class="about">
-      <h2>About Me</h2>
-      <p>A Senior Applied Machine Learning Engineer with expertise in Computer Vision, Deep Learning, Object Detection & Tracking, Semantic Segmentation, and Statistical Machine Learning. I hold a M.S. in Electrical Engineering with a focus on Computer Vision from Rochester Institute of Technology.</p>
-    </section>
+  <main>
+    <div class="section">
+      <h2>Welcome</h2>
+      <p>I'm Ramesh Nair, a Senior Applied Machine Learning Engineer specializing in computer vision and deep learning. My work focuses on developing innovative solutions for satellite imagery analysis and environmental monitoring.</p>
+    </div>
 
-    <section class="skills">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Programming Languages</h3>
-          <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Matlab</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Deep Learning Frameworks</h3>
-          <ul>
-            <li>TensorFlow/Keras</li>
-            <li>PyTorch</li>
-            <li>Kubeflow/Airflow/MLOps</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Geospatial Tools</h3>
-          <ul>
-            <li>GDAL/Rasterio</li>
-            <li>QGIS/ArcGIS</li>
-            <li>PostGIS</li>
-            <li>OpenStreetMap/Overture</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Libraries & APIs</h3>
-          <ul>
-            <li>OpenCV</li>
-            <li>NumPy</li>
-            <li>SciPy</li>
-            <li>Matplotlib</li>
-            <li>Scikit-Learn</li>
-            <li>LibSVM</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <div class="section">
+      <h2>Current Focus</h2>
+      <p>At Planet Labs, I lead the development of machine learning systems for satellite imagery analysis. Our work includes:</p>
+      <ul>
+        <li>Change detection in satellite imagery</li>
+        <li>Weakly supervised learning</li>
+        <li>Multi-modal data fusion</li>
+      </ul>
+    </div>
 
-    <section class="experience">
-      <h2>Experience</h2>
-      <div class="experience-grid">
-        <div class="experience-card">
-          <h3>Senior Machine Learning Engineer (Tech Lead)</h3>
-          <p class="company">Planet Labs Inc</p>
-          <p class="duration">Aug 2017 - Present</p>
-          <ul class="achievements">
-            <li>Spearheaded the development of ML training and data handling pipeline</li>
-            <li>Expanded ML team from 4 to 17 engineers in 3 years</li>
-            <li>Co-authored research paper on building growth detection in flood risk areas (ICML 2019)</li>
-            <li>Developed neural nets for change and anomaly detection using multi-sensor satellite imagery</li>
-            <li>Managed customer relationships and agile scrum development</li>
-          </ul>
-        </div>
-        <div class="experience-card">
-          <h3>Computer Vision / Deep Learning Research Intern</h3>
-          <p class="company">Siemens Corporate Research</p>
-          <p class="duration">Jun 2016 - Dec 2016</p>
-          <ul class="achievements">
-            <li>Developed patent-pending approach for Weakly Supervised Visual Anomaly Detection (F1 score: 0.85)</li>
-            <li>Collaborated on neural networks for anomaly detection in wind turbine components</li>
-            <li>Created Python modules for data extraction and normalization</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects">
-      <h2>Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Vessel & Airplane Detection on Satellite Imagery</h3>
-          <p>Developed deep learning-based models for vessel and airplane detection using medium resolution satellite imagery. Customized open-source neural nets for remote sensing applications.</p>
-          <a href="#" class="project-link">More Details</a>
-        </div>
-        <div class="project-card">
-          <h3>Semantic Segmentation of Building & Road</h3>
-          <p>Lead a team to develop global road and building segmentation models for medium resolution satellite imagery. Implemented automated ETL & model training pipelines using KubeFlow.</p>
-          <a href="#" class="project-link">More Details</a>
-        </div>
-        <div class="project-card">
-          <h3>Change Detection on Satellite Imagery</h3>
-          <p>Conducted spatio-temporal analysis for detecting changes in roads and buildings. Created an open-source change detection dataset and integrated with multi-model LLMs.</p>
-          <a href="#" class="project-link">More Details</a>
-        </div>
-        <div class="project-card">
-          <h3>Siamese Network for Change Detection</h3>
-          <p>Adapted Siamese network for patch-wise change detection in satellite imagery. Implemented model ensemble for optimized latency and accuracy.</p>
-          <a href="#" class="project-link">More Details</a>
-        </div>
-        <div class="project-card">
-          <h3>Super Resolution using SRGAN</h3>
-          <p>Modified ESRGAN for satellite imagery super resolution. Created custom loss function and fully convolutional architecture for impressive results.</p>
-          <a href="#" class="project-link">More Details</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact">
-      <h2>Contact Me</h2>
-      <p>Let's connect! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+    <div class="section">
+      <h2>Get in Touch</h2>
+      <p>Feel free to reach out if you'd like to discuss my work or explore potential collaborations.</p>
       <div class="contact-links">
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <a href="https://github.com/rameshnair007" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/rameshsnair" target="_blank">LinkedIn</a>
         <a href="mailto:rameshnair29493@gmail.com">Email</a>
       </div>
-    </section>
+    </div>
   </main>
 </div>
+
+<footer>
+  <p> {{ 'now' | date: "%Y" }} Ramesh Nair. All rights reserved.</p>
+</footer>
