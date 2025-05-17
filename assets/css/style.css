@@ -127,11 +127,13 @@ body {
 .main-content {
   flex: 1;
   margin-left: 250px;
-  padding: 2rem 1rem;
-  max-width: 800px;
+  padding: 2rem 2.5rem;
+  max-width: calc(100vw - 270px);
   width: 100%;
   min-height: 100vh;
   padding-bottom: 4rem;
+  box-sizing: border-box;
+  margin-right: auto;
 }
 
 /* Sections */
