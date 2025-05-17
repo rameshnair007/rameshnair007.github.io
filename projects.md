@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /projects/
+title: Projects
 ---
 
 ## Machine Learning for Satellite Imagery Analysis

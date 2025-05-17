@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /research/
+title: Research
 ---
 
 ## Current Research Focus

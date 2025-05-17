@@ -27,8 +27,10 @@ layout: none
     </div>
 
     <div class="main-content">
-      {% if page.title and page.url != '/' %}
-        <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.show_title != false and page.title and page.url != '/' %}
+        {% unless page.hide_title %}
+          <h1 class="page-title">{{ page.title }}</h1>
+        {% endunless %}
       {% endif %}
       {{ content }}
     </div>
