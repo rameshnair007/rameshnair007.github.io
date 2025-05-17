@@ -7,6 +7,44 @@
   --card-background: #fff;
   --border-radius: 4px;
   --spacing: 1.5rem;
+  --profile-image-size: 150px;
+}
+
+/* Profile image styles */
+.profile-image {
+  float: left;
+  margin: 0 var(--spacing) var(--spacing) 0;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.profile-image:hover {
+  transform: translateY(-2px);
+}
+
+/* About section layout */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}
+
+.about-content {
+  flex: 1;
+  margin-left: var(--spacing);
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    float: none;
+    margin: 0 auto var(--spacing) auto;
+    display: block;
+  }
+  
+  .about-content {
+    margin-left: 0;
+  }
 }
 
 body {
