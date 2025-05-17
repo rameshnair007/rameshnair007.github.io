@@ -72,7 +72,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  min-height: 100vh;
+  flex-direction: column;
 }
 
 /* Left navigation panel */
@@ -130,6 +130,42 @@ body {
   padding: 2rem 1rem;
   max-width: 800px;
   width: 100%;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 3rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+/* Content padding for mobile */
+@media (max-width: 768px) {
+  body {
+    display: block;
+  }
+  
+  .nav-panel {
+    position: relative;
+    width: 100%;
+    border-right: none;
+    box-shadow: none;
+    margin-bottom: 2rem;
+  }
+  
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+    min-height: auto;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
 }
 
 h1, h2, h3 {
