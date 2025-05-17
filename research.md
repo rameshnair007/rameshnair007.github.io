@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-# Research
-
 ## Current Research Focus
 
 - **Change Detection in Satellite Imagery**

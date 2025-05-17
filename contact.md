@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-# Contact
-
 Feel free to reach out if you'd like to discuss my work or explore potential collaborations.
 
 <div class="contact-links">

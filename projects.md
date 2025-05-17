@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 ## Machine Learning for Satellite Imagery Analysis
 
 ### Vessel & Airplane Detection
