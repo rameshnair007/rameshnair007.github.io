@@ -6,15 +6,16 @@ permalink: /projects/
 
 # Projects
 
-## Satellite Imagery Analysis
+## Machine Learning for Satellite Imagery Analysis
 
 ### Vessel & Airplane Detection
 - Developed deep learning-based models for detecting vessels and airplanes using medium resolution satellite imagery
 - Customized open-source neural networks for remote sensing applications
+- Built internal data annotation pipelines for training models by working with domain experts to label data
 - Implemented scalable solutions for real-time detection and tracking
 
 ### Semantic Segmentation
-- Led a team to develop global road and building segmentation models
+- Led a small team to develop global road and building segmentation models
 - Implemented automated ETL & model training pipelines using KubeFlow
 - Deployed models on Kubernetes for scalable performance evaluation
 

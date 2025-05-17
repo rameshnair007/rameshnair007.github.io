@@ -1,0 +1,36 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% seo %}
+  </head>
+  <body>
+    <div class="nav-panel">
+      <h1>{{ site.title | escape }}</h1>
+      <nav>
+        <ul>
+          <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+          <li><a href="/about" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+          <li><a href="/projects" {% if page.url == '/projects/' %}class="active"{% endif %}>Projects</a></li>
+          <li><a href="/research" {% if page.url == '/research/' %}class="active"{% endif %}>Research</a></li>
+          <li><a href="/publications" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a></li>
+          <li><a href="/contact" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main-content">
+      {{ content }}
+    </div>
+
+    <footer>
+      <p>{{ 'now' | date: "%Y" }} {{ site.title | escape }}. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

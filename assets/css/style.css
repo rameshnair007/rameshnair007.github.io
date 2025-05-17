@@ -36,6 +36,23 @@
 }
 
 @media (max-width: 768px) {
+  body {
+    display: block;
+  }
+  
+  .nav-panel {
+    position: relative;
+    width: 100%;
+    border-right: none;
+    box-shadow: none;
+    margin-bottom: 2rem;
+  }
+  
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+  
   .profile-image {
     float: none;
     margin: 0 auto var(--spacing) auto;
@@ -52,9 +69,67 @@ body {
   color: var(--text-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   line-height: 1.8;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Left navigation panel */
+.nav-panel {
+  width: 250px;
+  background-color: var(--card-background);
   padding: 2rem 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #eee;
+  box-shadow: 2px 0 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.nav-panel h1 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+.nav-panel nav {
+  margin-top: 2rem;
+}
+
+.nav-panel nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-panel nav ul li {
+  margin-bottom: 0.5rem;
+}
+
+.nav-panel nav a {
+  display: block;
+  padding: 0.5rem 0;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  border-radius: 4px;
+}
+
+.nav-panel nav a:hover,
+.nav-panel nav a.active {
+  color: var(--secondary-color);
+  background-color: #f8f9fa;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  margin-left: 250px;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
 }
 
 h1, h2, h3 {
