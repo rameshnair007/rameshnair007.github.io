@@ -4,28 +4,24 @@ permalink: /publications/
 title: Publications
 ---
 
-## Conference Papers
+## 📝 Conference Papers
 
-- **Detecting building growth over African cities that are in high flood risk areas**
-  - ICML 2019 Workshop on Climate Change and AI
-  - Co-authored with Planet Labs research team
-  - Presented findings on using satellite imagery for flood risk assessment
+- **Detecting Building Growth in High Flood Risk Regions Across African Cities**  
+  _ICML 2019 Workshop on Climate Change and AI_  
+  Co-authored with the Planet Labs research team, this paper (<https://www.climatechange.ai/papers/icml2019/24.pdf>) explores the use of satellite imagery and machine learning to monitor urban expansion in flood-prone zones. The goal: to inform climate resilience strategies in rapidly developing areas.
 
-## Patents
+## 🧠 Patents
 
-- **Weakly Supervised Visual Anomaly Detection and Segmentation in Images**
-  - US Patent No: US10672115B2
-  - Novel approach for training deep learning models with limited labeled data
-  - Applications in industrial inspection and quality control
+- **Weakly Supervised Visual Anomaly Detection and Segmentation**  
+  _US Patent No: US10672115B2_  
+  This patent introduces a novel method for training deep learning models with sparse or noisy labels. Originally developed for industrial visual inspection, the approach has since influenced broader applications in quality control and monitoring systems.
 
-## Technical Reports
+## 📘 Technical Reports
 
-- **Multi-sensor Fusion for Change Detection in Satellite Imagery**
-  - Internal technical report
-  - Comprehensive analysis of multi-sensor data integration
-  - Case studies in environmental monitoring
+- **Multi-sensor Fusion for Change Detection in Satellite Imagery**  
+  _Internal Report | Planet Labs_  
+  A deep dive into integrating data from diverse satellite sensors (optical, radar, etc.) to enhance the accuracy of change detection models. Includes real-world case studies in environmental and infrastructure monitoring.
 
-- **Scalable Deep Learning Pipelines for Satellite Imagery**
-  - Internal technical report
-  - Architecture and implementation details
-  - Performance benchmarks and optimizations
+- **Scalable Deep Learning Pipelines for Satellite Imagery**  
+  _Internal Report | Planet Labs_  
+  Covers the design and optimization of large-scale ML systems for processing satellite data at global scale. Focuses on architecture, model orchestration, and performance tuning for production deployments.
