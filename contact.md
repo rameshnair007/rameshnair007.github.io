@@ -1,9 +1,14 @@
 ---
 layout: page
 permalink: /contact/
+title: Contact
 ---
 
-Feel free to reach out if you'd like to discuss my work or explore potential collaborations.
+## 📬 Get in Touch
+
+Thanks for stopping by! I'm always happy to connect, whether you're interested in my work, exploring a potential collaboration, or just want to chat about machine learning, satellite imagery, or life in tech.
+
+Feel free to reach out through any of the platforms below:
 
 <div class="social-links">
   <a href="https://github.com/rameshnair007" target="_blank" aria-label="GitHub">
@@ -23,6 +28,7 @@ Feel free to reach out if you'd like to discuss my work or explore potential col
   </a>
 </div>
 
-You can also find me on:
+---
 
-- Location: San Francisco, CA
+📍 Based in **San Francisco, CA**  
+🌎 Working globally — open to remote collaborations, speaking opportunities, and idea exchanges.
