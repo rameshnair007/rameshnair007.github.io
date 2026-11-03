@@ -37,7 +37,9 @@ layout: none
     <footer class="site-footer">
       <div class="container footer-inner">
         <p>&copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}</p>
+        {% unless page.url == '/contact/' %}
         {% include social-links.html %}
+        {% endunless %}
       </div>
     </footer>
   </body>
