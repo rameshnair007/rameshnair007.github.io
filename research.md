@@ -11,11 +11,11 @@ description: Research interests of Ramesh Nair, including change detection in sa
 
 ### Change Detection in Satellite Imagery
 
-I’m exploring advanced techniques for identifying and quantifying changes over time using satellite data.
+I study how to find and measure changes over time in satellite data.
 
-- Designing models to detect subtle temporal shifts in land use and infrastructure
-- Fusing multi-sensor inputs (optical, SAR, etc.) for greater accuracy and robustness
-- Focused applications: environmental monitoring, disaster impact analysis, and urban expansion tracking
+- Designing models that detect small changes over time in land use and infrastructure
+- Combining data from different sensors (optical images, and radar called SAR) to get more accurate and reliable results
+- Main uses: environmental monitoring, measuring the impact of disasters, and tracking how cities grow
 
 </div>
 
@@ -23,11 +23,11 @@ I’m exploring advanced techniques for identifying and quantifying changes over
 
 ### Weakly Supervised Learning
 
-My work aims to push the boundaries of deep learning with minimal supervision.
+I work on making deep learning succeed with very little supervision. Supervision means labels that tell a model the right answer.
 
-- Creating frameworks that learn from sparse, noisy, or incomplete annotations
-- Key use cases include anomaly detection and semantic segmentation
-- Goal: reduce labeling overhead while preserving model performance at scale
+- Building methods that learn from labels that are few, noisy, or incomplete
+- Main uses: anomaly detection (finding unusual things) and semantic segmentation (labeling every pixel)
+- Goal: cut the work of labeling data while keeping models accurate at large scale
 
 </div>
 
@@ -37,9 +37,9 @@ My work aims to push the boundaries of deep learning with minimal supervision.
 
 ### Visual Anomaly Detection
 
-- Invented a novel, weakly supervised method for detecting anomalies in visual data
-- Core ideas led to a granted U.S. patent
-- Demonstrated strong generalization across industrial and quality control use cases
+- Invented a new method that finds anomalies in images using few labels (weak supervision)
+- The core ideas led to a granted U.S. patent
+- The method worked well across different industrial and quality control uses
 
 </div>
 
@@ -47,8 +47,8 @@ My work aims to push the boundaries of deep learning with minimal supervision.
 
 ### Multi-modal Learning
 
-- Investigated strategies for combining satellite imagery with auxiliary data sources
-- Built pipelines for cross-modal fusion to enhance prediction and context-awareness
-- Applied across domains such as ecological monitoring and rapid disaster response
+- Studied ways to combine satellite images with other kinds of data
+- Built pipelines that merge the different data types, to make predictions better and give them more context
+- Applied the work to areas such as ecological monitoring and fast disaster response
 
 </div>

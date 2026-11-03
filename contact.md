@@ -7,13 +7,14 @@ description: Contact Ramesh Nair by email, GitHub, LinkedIn, X, or Google Schola
 
 ## Get in Touch
 
-Thanks for stopping by! I'm always happy to connect, whether you're interested in my work, exploring a potential collaboration, or just want to chat about machine learning, satellite imagery, or life in tech.
+Thanks for stopping by! I am happy to hear from anyone. You can ask about my work, suggest a project to do together, or just talk about machine learning, satellite images, or life in tech.
 
-Feel free to reach out through any of the platforms below:
+Choose the way you like best:
 
-{% include social-links.html %}
+{% include social-links.html labels=true %}
 
 ---
 
-Based in **San Francisco, CA**.
-Working globally — open to remote collaborations, speaking opportunities, and idea exchanges.
+I am based in **San Francisco, CA**.
+
+I work with people around the world. I am open to remote projects, speaking invitations, and conversations about new ideas.

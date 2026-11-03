@@ -11,11 +11,11 @@ description: Machine learning projects by Ramesh Nair, including vessel and airp
 
 ### Vessel & Airplane Detection
 
-Developed deep learning systems to detect ships and aircraft in medium-resolution satellite imagery.
+I built deep learning systems that find ships and aircraft in medium-resolution satellite images.
 
-- Adapted open-source object detection architectures for geospatial data
-- Designed internal annotation workflows with domain experts for high-quality training data
-- Delivered scalable, near real-time detection and tracking systems
+- Adapted open-source object detection models for satellite data
+- Worked with domain experts to design how we label training images, so the labels are high quality
+- Delivered systems that detect and track objects at large scale in near real time
 
 </div>
 
@@ -23,11 +23,11 @@ Developed deep learning systems to detect ships and aircraft in medium-resolutio
 
 ### Semantic Segmentation for Roads & Buildings
 
-Led a team to build globally scalable segmentation models for critical infrastructure.
+I led a team that built segmentation models for roads and buildings. Segmentation means labeling every pixel in an image. The models work across the whole world.
 
-- Created automated ETL and model training pipelines using Kubeflow
-- Deployed models on Kubernetes for seamless scalability and performance monitoring
-- Supported downstream analytics across multiple teams
+- Built automated ETL pipelines (steps that collect and prepare data) and model training pipelines, using Kubeflow (a tool for running ML workflows)
+- Deployed the models on Kubernetes (a system that runs software across many computers), with monitoring of their performance
+- Supported analytics work for several teams
 
 </div>
 
@@ -35,11 +35,11 @@ Led a team to build globally scalable segmentation models for critical infrastru
 
 ### Change Detection
 
-Built a complete pipeline for detecting infrastructure and land-use changes over time.
+I built a complete pipeline that finds changes in infrastructure and land use over time.
 
-- Performed spatial-temporal analysis on multi-date satellite stacks
+- Analyzed satellite images of the same place from many dates, to see how it changed
 - Released an open-source change detection dataset to support community research
-- Integrated outputs with LLMs to generate contextual event-level summaries
+- Connected the results to large language models (LLMs) that write a short summary of each event
 
 </div>
 
@@ -49,11 +49,11 @@ Built a complete pipeline for detecting infrastructure and land-use changes over
 
 ### Weakly Supervised Anomaly Detection
 
-Designed and deployed a novel method for identifying visual anomalies with minimal labels.
+I designed and deployed a new method that finds unusual things in images (anomalies) using very few labels.
 
-- Achieved an F1 score of 0.85 while maintaining low false-positive rates
-- Resulted in a granted U.S. patent
-- Research published at the [ICML 2019 Workshop on Climate Change and AI](https://www.climatechange.ai/papers/icml2019/24.pdf)
+- Reached an F1 score of 0.85 (a score from 0 to 1 that balances finding real cases and avoiding false alarms), with low false-positive rates
+- Led to a granted U.S. patent
+- Published at the [ICML 2019 Workshop on Climate Change and AI](https://www.climatechange.ai/papers/icml2019/24.pdf)
 
 </div>
 
@@ -61,10 +61,10 @@ Designed and deployed a novel method for identifying visual anomalies with minim
 
 ### Super Resolution for Satellite Imagery
 
-Enhanced satellite images using deep generative networks.
+I made satellite images sharper using deep generative networks. These are models that create new image detail.
 
-- Modified ESRGAN for remote sensing use cases
-- Designed custom loss functions tailored to geospatial textures and details
-- Scaled solution to process global imagery efficiently
+- Modified ESRGAN (a well-known super resolution model) for remote sensing, which means studying Earth from satellites
+- Designed custom loss functions (the rules a model learns from) that fit the textures and details of the ground
+- Scaled the method to process imagery from the whole world
 
 </div>

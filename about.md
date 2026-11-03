@@ -9,14 +9,14 @@ description: About Ramesh Nair, a machine learning engineer at Planet Labs who w
 
 ## Hi, I'm Ramesh
 
-Welcome to my corner of the internet. I’m a curious mind, tech tinkerer, and machine learning engineer who’s passionate about solving real-world problems through computer vision and deep learning.
+Welcome to my corner of the internet. I am a curious person and a machine learning engineer. I like to build things. I want to solve real problems with computer vision and deep learning. Computer vision teaches computers to understand images. Deep learning is a kind of machine learning that uses large neural networks.
 
-Right now, I lead ML efforts at **Planet Labs**, where I work on cutting-edge models that make sense of satellite imagery — from tracking environmental changes to mapping infrastructure across the globe. I love turning messy, high-dimensional data into actionable insights.
+Right now, I lead machine learning work at **Planet Labs**. I build models that read satellite images. They track changes in the environment and map infrastructure around the world. I like to turn large, messy data into useful answers.
 
-Before this, I was at **Siemens Corporate Research**, working on visual anomaly detection and segmentation problems. I’ve published my work in top-tier conferences like ICML and hold a patent in weakly supervised learning domain.
+Before Planet, I worked at **Siemens Corporate Research**. I worked on visual anomaly detection and segmentation. Anomaly detection finds things that look unusual. Segmentation labels every pixel in an image. I have published at top conferences such as ICML, and I hold a patent in weakly supervised learning. That means training models with few or imperfect labels.
 
-I earned my Master’s degree from **Rochester Institute of Technology**, and I’ve been exploring the intersection of geospatial data, AI, and real-world impact ever since.
+I earned my Master’s degree at **Rochester Institute of Technology**. Since then, I have worked where geospatial data, AI, and real-world impact meet. Geospatial data is data tied to places on Earth.
 
-Outside of tech, you’ll find me running, biking, or globe-trotting. I’m endlessly curious about other cultures and love the stories hidden in unfamiliar places.
+Outside of tech, I run, bike, and travel. I am curious about other cultures, and I like the stories I find in unfamiliar places.
 
-This site is a living portfolio of my projects, research, and ideas. Feel free to explore, and if anything sparks your interest — I’d love to connect! Just scroll down to find my links in the footer.
+This site shows my projects, research, and ideas. Explore it, and get in touch if something interests you. My links are in the footer.
