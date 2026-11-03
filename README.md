@@ -14,8 +14,8 @@ A modern, responsive personal website and portfolio built with Jekyll and hosted
   - Built with Jekyll for static site generation
   - Custom CSS with modern design principles
   - SEO optimized with `jekyll-seo-tag`
-  - RSS feed support via `jekyll-feed`
-  - Font Awesome icons for enhanced visual elements
+  - Sitemap via `jekyll-sitemap`
+  - Inline SVG icons (Font Awesome Free, CC BY 4.0) and a dark mode that follows the system setting
 
 ## 🚀 Getting Started
 
@@ -84,7 +84,7 @@ A modern, responsive personal website and portfolio built with Jekyll and hosted
 
 ### Styling
 - Customize colors and fonts in `assets/css/style.css`
-- Update the navigation in `_config.yml`
+- Update the navigation in `_config.yml` and the social links in `_data/social.yml`
 
 ## 🚀 Deployment
 
