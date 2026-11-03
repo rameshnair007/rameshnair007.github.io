@@ -1,0 +1,9 @@
+<ul class="social-links" aria-label="Social links">
+  {% for item in site.data.social %}
+  <li>
+    <a href="{{ item.url }}"{% if item.external %} target="_blank" rel="noopener noreferrer" aria-label="{{ item.name }} (opens in a new tab)"{% else %} aria-label="{{ item.name }}"{% endif %}>
+      {% include icons/{{ item.icon }}.svg %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

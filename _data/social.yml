@@ -1,0 +1,19 @@
+- name: GitHub
+  url: https://github.com/rameshnair007
+  icon: github
+  external: true
+- name: LinkedIn
+  url: https://linkedin.com/in/rameshsnair
+  icon: linkedin
+  external: true
+- name: Email
+  url: mailto:rameshnair29493@gmail.com
+  icon: envelope
+- name: X
+  url: https://x.com/ramzi_nair
+  icon: x-twitter
+  external: true
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=P8H1-84AAAAJ
+  icon: graduation-cap
+  external: true
